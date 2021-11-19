@@ -3,7 +3,7 @@
   display: flex;
   min-height: 100px;
   border-bottom: 1px solid darkgrey;
-  padding: 15px 0;
+  padding: 15px 0px;
   font-size: 20px;
   align-items: center;
 
@@ -22,8 +22,21 @@
     width: 23%;
   }
 
+  .price,.quantity,.remove-button {
+    padding-left: 3px;
+  }
+
   .quantity {
-    padding-left: 20px;
+    display: flex;
+
+    .arrow {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .value {
+      margin: 3.5px 10px;
+    }
   }
 
   .remove-button {
