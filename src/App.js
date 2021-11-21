@@ -51,7 +51,7 @@ class App extends React.Component {
             <Switch>
                 <Route exact path='/e-commerce-react-app'
                     element={<Homepage/>}/>
-                <Route path='/e-commerce-react-app/shop'
+                <Route path='/e-commerce-react-app/shop/*'
                     element={<ShopPage/>}/>
                 <Route 
                 exact 
