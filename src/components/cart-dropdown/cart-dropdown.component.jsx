@@ -27,7 +27,7 @@ const CartDropdown = ({cartItems,dispatch}) => {
         }
         </div>
         <CustomButton  onClick={() =>{
-             navigate('/e-commerce-react-app/checkout')
+             navigate('/checkout')
              dispatch(toggleCartHidden());
              }} >GO TO CHECKOUT</CustomButton>
     </div>
